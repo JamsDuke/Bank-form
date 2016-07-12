@@ -41,6 +41,14 @@ select {
   margin: 10px 0px;
 }
 
+input:invalid {
+  background-color: #ffdddd;
+}
+
+input:valid {
+  background-color: #ddffdd;
+}
+
 button {
   margin: 10px;
   padding: 10px;
